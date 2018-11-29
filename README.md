@@ -12,6 +12,7 @@ Performance of Algorithm:
   - Has not been thoroughly tested with equities markets.
   
 How to Use:
+
 a. How to run bitcoin_volstop_v1.txt
   - Register with or login to TradingView at https://www.tradingview.com in order to run custom scripts.
   - Copy ENTIRE bitcoin_volstop_v1.txt file
@@ -23,6 +24,7 @@ a. How to run bitcoin_volstop_v1.txt
   - Press "CTRL" + "V" to paste bitcoin_volstop_v1 script into editor
   - Select "Add to Chart" on the upper right section of the script panel
   - Select tab "Strategy Tester" found at same toolbar as the previous "Pine Editor" tab
+  
 b. Changing inputs
   - On the leftmost toolbar at the very bottom, select the square with two bent lines beneath it ("Object Tree" menu)
   - Locate BTC VolStop Signals(...). On the right side of the entry, select the middle button shaped like a gear
@@ -32,6 +34,7 @@ b. Changing inputs
   - Set Risk Reward Ratio with "Risk To Reward Multiplier"
   - Set number of standard deviations applied to stops with "Stop Deviations"
   - Set number of bars before standard deviation stoploss becomes trailing stoploss with "Bars Before Trailing Stop"
+  
 c. Inputs for (overfit?) 3200 % retuns Aug 2013 - Nov 2018
   - ATR Multiplier = 4
   - ATR Lookback Period = 7
