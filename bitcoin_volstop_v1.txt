@@ -18,7 +18,7 @@ Factor=input(3, minval=1,maxval = 100, title='ATR Multiplier')
 Pd=input(7, minval=1,maxval = 100, title='ATR Lookback Period')
 rrm = input(3, title='Risk to Reward Multiplier')
 sd = input(1, title='Stop Deviations')
-sp = input(20, title='Bars Before Trailing Stops ') 
+sp = input(20, title='Bars Before Trailing Starts') 
 
 //find up and down atr stops from price anchor
 Up=hl2-(Factor*atr(Pd))
