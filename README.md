@@ -32,7 +32,7 @@ b. Changing inputs
   - Set Risk Reward Ratio with "Risk To Reward Multiplier"
   - Set number of standard deviations applied to stops with "Stop Deviations"
   - Set number of bars before standard deviation stoploss becomes trailing stoploss with "Bars Before Trailing Stop"
-c.  Possibly overfit 3200 % retuns Aug 2013 - Nov 2018
+c. Inputs for (overfit?) 3200 % retuns Aug 2013 - Nov 2018
   - ATR Multiplier = 4
   - ATR Lookback Period = 7
   - Risk to Reward Multiplier = 4
